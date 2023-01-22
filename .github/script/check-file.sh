@@ -4,7 +4,7 @@
 
 # Make sure to escape your backslashes => \\ <= in YAML
 # So that its still a single \ in bash
-
+1
 echo "Check that $FILE includes $SEARCH"
 if grep --extended-regexp "$SEARCH" -- $FILE
 then
